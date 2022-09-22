@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.banner {
+  background-image: url("../img/em.jpg");
+  padding: 15% 30% 25% 8%;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  z-index: 1;
+
+}
+
+#nav a:hover{
+  color: greenyellow;
+}
+#nav2 a:hover{
+  color: greenyellow;
+}
+
+.AmbiNatural,
+.AmbiNatural1 {
+  font-size: 32px;
+}
+
+.banner::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.45;
+  z-index: -1;
+}
+
+
+.estrellas {
+  color: orange;
+}
+
+
+.bodyfondo {
+  background-image: url(../img/liquid-cheese\ \(1\).svg);
+  background-size: cover;
+}
+
+
+
+.indexhtmlparrafo {
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.footer {
+  box-shadow:green 2px 3px 12px 3px;
+  text-align: center;
+  background-color: black;
+  height: 150px;
+  text-align: end;
+}
+
+.divRedes {
+  text-align: center;
+}
+
+.indexhtmlAMBIENTENATURAL {
+  color: white;
+}
+
+.fondosection {
+  background-color: rgba(47, 144, 62, 0.548);
+  background-size: 100% 100%;
+  margin: 0%;
+}
+
+.indexhtmlderecho {
+  text-align: center;
+}
+
+.facebook,
+.instagram,
+.twitter,
+.whatsapp {
+  font-size: 50px;
+  margin: 1%;
+}
+
+.instagram {
+  color: rgb(244, 47, 152);
+}
+
+.whatsapp {
+  color: rgb(33, 226, 49);
+}
+
+.btn {
+  background-color: rgb(15, 228, 26);
+}
+
+.Bonsai {
+  color: black;
+}
+
+.offcanvas-body {
+  color: rgb(7, 7, 7);
+}
